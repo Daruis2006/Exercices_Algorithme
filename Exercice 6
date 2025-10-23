@@ -1,1 +1,21 @@
+Algorithme tableauDe30Notes
+Tableau notes: Tableau[30] de entier ;
 
+Variable
+Var i: entier ;
+Var coef: entier ;
+ 
+  
+Début
+  Pour i de 0 à 29 faire 
+    afficher ("Votre ", i+1, " note: ");
+    lire(notes[i]);
+  finpour 
+  afficher ("Le coefficient : ");
+  lire(coef);
+  Pour i de 0 à 29 faire 
+    notes[i]<-notes[i] * coef
+    afficher ("la note ", i+1, " multipliée par le coefficient ",coef, " est : ", notes[i]); 
+  finpour 
+Fin
+  
